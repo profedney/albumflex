@@ -1,0 +1,22 @@
+img{
+    max-width: 100%;  
+    margin: 5%;
+}
+
+.flex-pai {
+    display: flex;
+    background-color:DodgerBlue;
+    padding: 20px;
+ 
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+    
+}
+.coluna-reversa {
+    display: flex;
+    flex-direction: column-reverse; /* Inverte a ordem das fotos na coluna */
+}
+
